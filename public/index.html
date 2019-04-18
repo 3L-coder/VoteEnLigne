@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <title>Vote en ligne</title>
+</head>
+<body>
+<div class="container">
+    <h1>Vote du meilleur employe</h1>
+    <p>Votez pour votre employe favori</p>
+    <form id="vote-form">
+        <p>
+            <input type="radio" name="employe" id="henri" value="Henri">
+            <label for="henri">Henri</label>
+        </p>
+        <p>
+                <input type="radio" name="employe" id="monique" value="Monique">
+                <label for="monique">Monique</label>
+        </p>
+        <p>
+                <input type="radio" name="employe" id="bertrand" value="Bertrand">
+                <label for="bertrand">Bertrand</label>
+        </p>
+        <p>
+                <input type="radio" name="employe" id="georgette" value="Georgette">
+                <label for="georgette">Georgette</label>
+        </p>
+        <p>
+            <input type="radio" name="employe" id="richard" value="Richard">
+            <label for="richard">Richard</label>
+        </p>
+        <p>
+                <input type="radio" name="employe" id="aboubacar" value="Aboubacar">
+                <label for="aboubacar">Aboubacar</label>
+        </p>
+        <p>
+                <input type="radio" name="employe" id="fatim" value="Fatim">
+                <label for="fatim">Fatim</label>
+        </p>
+        <input type="submit" value="Vote" class="btn">
+
+    </form>
+    <br><br>
+    <div id="chartContainer" style="height: 300px; width: 100%"></div>
+
+
+</div>
+<script
+			  src="http://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.4.0/pusher.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+<script src="main.js"></script>
+    
+</body>
+</html>
