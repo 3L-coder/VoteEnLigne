@@ -1,4 +1,5 @@
 # VoteEnLigne
+Many companies award their employees according to their performance during a given period. Indeed, often the criteria for choosing the agents to be awarded are controversial because some show favoritism or nepotism. This application therefore makes it possible to dematerialize the selection process. It makes it possible to have the list of employees and to carry out the votes online. The results are instantaneous and require no intervention to avoid manipulating the data.    
 Elles sont nombreuses les entreprises qui bonifient leurs employés selon leur performance durant une période donnée En effet, souvent les critères de choix sur les agents à primer font polémiques car certains révèlent du favoritisme ou népotisme. Cette application permet donc de dématérialiser le processus de sélection. Elle permet de disponibilité la liste des employés et de procéder aux vote en ligne. Les résultats sont instantanés et ne nécessitent aucune intervention pour éviter de manipuler les données. 
 ## Technologie utilisee:
  Nodejs  le framework qui permet de developper des applications cote serveur entierement en javaSCript                            
